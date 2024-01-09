@@ -20,7 +20,8 @@
         "yidas/yii2-composer-bower-skip": "*",
         "yiisoft/yii2": "~2.0.14",
         "yiisoft/yii2": "~2.0.45",
-        "yiithings/yii2-dotenv": "^1.0"
+        "yiithings/yii2-dotenv": "^1.0",
+        "yiisoft/yii2-httpclient": "^2.0"
     },
     "require-dev": {
         "yiisoft/yii2-faker": "~2.0.0",
