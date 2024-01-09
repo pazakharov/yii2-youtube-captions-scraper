@@ -1,0 +1,12 @@
+includes:
+	- vendor/proget-hq/phpstan-yii2/extension.neon
+parameters:
+	level: 2
+	paths:
+		- src
+	excludePaths:
+		- tests
+	yii2:
+		config_path: %rootDir%/../../../tests/yii-config/test.php
+	bootstrapFiles:
+		- vendor/yiisoft/yii2/Yii.php
