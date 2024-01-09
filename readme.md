@@ -16,10 +16,10 @@ use Zakharov\YoutubeScreaper;
  $screaper = Yii::createObject([
             'class' => YoutubeScreaper::class,
         ]);
-        $captionUrl = $screaper->getCaptionsBaseUrl('https://www.youtube.com/watch?v=wNzql5TZ-iY');
+        $captionUrl = $screaper->getCaptionsBaseUrl('https://www.youtube.com/watch?v=wNzql5TZ-i');
         $subtitles = $screaper->getSubtitles($captionUrl);
 ```
-In this example, we're scraping the English captions for the video with the ID wNzql5TZ-iY. The getCaptionsBaseUrl method returns the base URL for the captions, which we then pass to the getSubtitles method to retrieve the subtitles.
+In this example, we're scraping the captions (subtitles) for the video with the ID wNzql5TZ-i. The getCaptionsBaseUrl method returns the base URL for the captions, which we then pass to the getSubtitles method to retrieve the subtitles.
 
 Note that the getSubtitles method returns an array of strings, where each string represents a subtitle. You can then use this array to display the subtitles in your application.
 
