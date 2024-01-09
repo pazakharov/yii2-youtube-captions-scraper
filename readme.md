@@ -4,7 +4,7 @@ The Youtube Screaper is a PHP package that allows you to scrape captions and sub
 ### Installation
 You can install the Youtube Screaper using Composer:
 ```bash
-composer require zakharov/yii2-youtube-screaper
+    composer require pazakharov/yii2-youtube-captions-screaper
 ```
 ### Usage
 To use the Youtube Screaper, you first need to create an instance of the YoutubeScreaper class and set the languageCode property to the language code of the captions you want to scrape. You can then use the getCaptionsBaseUrl and getSubtitles methods to retrieve the base URL and subtitles, respectively.
