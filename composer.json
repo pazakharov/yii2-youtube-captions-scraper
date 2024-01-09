@@ -1,5 +1,5 @@
 {
-    "name": "pazak/yii2-youtube-captions-screaper",
+    "name": "pazakharov/yii2-youtube-captions-screaper",
     "description": "Youtube captions (subtitles) screaper",
     "type": "library",
     "license": "MIT",

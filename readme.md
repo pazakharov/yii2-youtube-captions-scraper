@@ -13,7 +13,7 @@ Here's an example usage:
 ```php
 use Zakharov\YoutubeScreaper;
 
- $screaper = Yii::createObject([
+        $screaper = Yii::createObject([
             'class' => YoutubeScreaper::class,
         ]);
         $captionUrl = $screaper->getCaptionsBaseUrl('https://www.youtube.com/watch?v=wNzql5TZ-i');
