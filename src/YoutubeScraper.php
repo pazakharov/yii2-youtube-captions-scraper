@@ -8,7 +8,7 @@ use yii\base\Component;
 use yii\httpclient\Client;
 use yii\httpclient\CurlTransport;
 
-class YoutubeScreaper extends Component
+class YoutubeScraper extends Component
 {
     /**
      * filter captions by language
